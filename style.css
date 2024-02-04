@@ -97,7 +97,6 @@
     border: 2px solid orange;
 }
 
-}
 
 /** box 4**/
 span {
@@ -250,11 +249,20 @@ ul {
     align-items: center;
 
 }
-.logo {
+.amalogo {
+    height: 15px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 91%;
+
+}
+.logo-end {
+    background-image: url("amazon_logo.png");
     background-size: cover;
     height: 50px;
     width: 100%;
-
 }
 .foot-panel4 {
     background-color: #007185;
@@ -276,8 +284,10 @@ ul {
     
 }
 .Linkdin-profile {
+    font-weight: 700;
 
 }
 .github-profile{
     width: 10%;
+    font-weight: 700;
 }
